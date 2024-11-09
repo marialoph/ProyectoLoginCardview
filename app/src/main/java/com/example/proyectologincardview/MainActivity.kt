@@ -15,10 +15,7 @@ import java.util.Calendar
 
 class MainActivity : AppCompatActivity() {
     private lateinit var bindingMain: ActivityMainBinding
-    private lateinit var btnLlamar : ImageButton
-    private lateinit var btnAlarma : ImageButton
-    private lateinit var btnSpotify : ImageButton
-    private lateinit var btnMapa : ImageButton
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
